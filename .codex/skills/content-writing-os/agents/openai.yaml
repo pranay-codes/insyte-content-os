@@ -1,0 +1,7 @@
+interface:
+  display_name: "Content Writing OS"
+  short_description: "Draft and adapt Content OS writing"
+  default_prompt: "Use $content-writing-os to generate a Medium deep-dive, newsletter, and two LinkedIn drafts from a Research Bank item with strict evidence mapping."
+
+policy:
+  allow_implicit_invocation: true
