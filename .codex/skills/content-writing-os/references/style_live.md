@@ -1,8 +1,8 @@
 # Active Style Guide
 
-Style-Version: 1.0.0
-Last-Updated: 2026-02-22
-Source: style_baseline.md
+Style-Version: 1.1.0
+Last-Updated: 2026-03-09
+Source: style_baseline.md + https://ruben.substack.com/p/detection
 
 ## Primary Goal
 
@@ -15,6 +15,8 @@ Explain technical AI concepts deeply enough for practitioners while remaining cl
 3. Specific and measurable where possible.
 4. Calm, practical, and direct.
 5. No inflated claims.
+6. Conversational and human, not institutional.
+7. Opinionated when evidence supports a recommendation.
 
 ## Required Framing
 
@@ -50,3 +52,47 @@ Always connect technical explanation to at least one:
 3. cycle-time reduction
 4. quality or consistency gain
 5. risk mitigation
+
+## Anti-AI Feel Rules
+
+1. Remove padded phrases that add no information:
+- highlighting the importance of
+- plays a crucial role in
+- it is important to remember that
+2. Ban overused AI vocabulary:
+- delve
+- intricate
+- tapestry
+- interplay
+- foster
+- garner
+- underscore
+- pivotal
+- showcase
+- enduring
+3. Avoid stale AI sentence constructions:
+- not only... but also...
+- rigid rule-of-three phrasing with generic nouns
+- from X to Y when a specific claim is available
+4. Vary pacing aggressively:
+- mix short and long sentences
+- avoid uniform paragraph length
+5. Write as direct speech:
+- use I and you when useful
+- allow sentence starts with And or But
+- prefer active voice
+6. Remove meta commentary:
+- delete setup phrases like "in this section we will"
+- avoid summary boilerplate like "in conclusion" and "overall"
+7. Use formatting sparingly:
+- bullets and numbered lists only when they improve scan speed
+- avoid template-heavy structure
+- limit em dashes to at most one per piece
+8. Be concrete and decision-oriented:
+- replace abstract claims with constraints and conditions
+- use real examples where possible
+- end sections with Monday-morning actions for operators
+9. Hedge only when uncertainty is real:
+- use maybe/sometimes for unknowns
+- do not soften clear recommendations
+
