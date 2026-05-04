@@ -42,8 +42,13 @@ The default tone is technical but clear, with deep-dive explanations of AI, LLM,
 
 1. Use `references/style_live.md` as active voice guide.
 2. Keep style anchored to `references/style_baseline.md` (source: provided Medium article).
-3. Follow channel structures and length limits in `references/format_rules.md`.
-4. Use templates from `references/output_templates.md`.
+3. Always load the channel guide before writing that channel:
+   - Newsletter: `references/channel_newsletter.md`
+   - LinkedIn: `references/channel_linkedin.md`
+4. Follow channel structures and length limits in `references/format_rules.md` (channel guides take precedence on conflicts).
+5. Use templates from `references/output_templates.md` (or the channel guide when it defines a stricter template).
+
+When a user asks for a LinkedIn post or newsletter in the future, read the relevant channel guide first and draft to that spec.
 
 ## 3) Propose Adaptive Style Updates (No Auto-Apply)
 

@@ -1,7 +1,7 @@
 # Active Style Guide
 
-Style-Version: 1.1.0
-Last-Updated: 2026-03-09
+Style-Version: 1.1.1
+Last-Updated: 2026-04-10
 Source: style_baseline.md + https://ruben.substack.com/p/detection
 
 ## Primary Goal
@@ -87,7 +87,7 @@ Always connect technical explanation to at least one:
 7. Use formatting sparingly:
 - bullets and numbered lists only when they improve scan speed
 - avoid template-heavy structure
-- limit em dashes to at most one per piece
+- no em dashes (—). Replace with commas, parentheses, or separate sentences.
 8. Be concrete and decision-oriented:
 - replace abstract claims with constraints and conditions
 - use real examples where possible

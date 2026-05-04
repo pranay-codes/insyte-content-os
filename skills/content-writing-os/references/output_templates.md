@@ -41,13 +41,64 @@
 ## Newsletter Template
 
 ```markdown
-# {{title}}
+# Subject Line Options
+1. {{subject_1}}
+2. {{subject_2}}
+3. {{subject_3}}
+4. {{subject_4}}
+5. {{subject_5}}
+
+# {{issue_title}}
 
 ## Subheading
 {{subheading}}
 
 ## Hook
-{{hook}}
+{{hook_story_moment}}
+
+## Introduction
+{{introduction}}
+
+## This Issue's Insight
+{{insight}}
+
+## Technical Concept Explained
+{{technical_explanation}}
+
+## Why This Is Useful For The Business
+{{business_value}}
+
+## What It Means In Practice
+{{implications}}
+
+## Screenshot Plan
+Screenshot 1:
+- {{shot_1}}
+- Caption: {{caption_1}}
+
+Screenshot 2:
+- {{shot_2}}
+- Caption: {{caption_2}}
+
+Screenshot 3:
+- {{shot_3}}
+- Caption: {{caption_3}}
+
+## Action Checklist
+1. {{action_1}}
+2. {{action_2}}
+3. {{action_3}}
+4. {{action_4}}
+5. {{action_5}}
+
+## CTA
+{{cta}}
+
+## Evidence Map
+- Claim: {{claim_1}}
+  - Source: {{source_1}}
+- Claim: {{claim_2}}
+  - Source: {{source_2}}
 
 ## Searchable Key Phrases
 1. {{key_phrase_1}}
@@ -55,47 +106,10 @@
 3. {{key_phrase_3}}
 4. {{key_phrase_4}}
 5. {{key_phrase_5}}
-
-## This week's insight
-{{insight}}
-
-## Technical concept explained
-{{technical_explanation}}
-
-## Why this is useful for the business
-{{business_value}}
-
-## What it means in practice
-{{implications}}
-
-## Action checklist
-1. {{action_1}}
-2. {{action_2}}
-3. {{action_3}}
-
-## CTA
-{{cta}}
-
-## Evidence Map
-- claim: {{claim_1}} | source: {{source_1}}
-- claim: {{claim_2}} | source: {{source_2}}
 ```
 
 ## LinkedIn Template
 
 ```markdown
-{{hook}}
-
-{{technical_point}}
-
-{{business_value}}
-
-{{implication}}
-
-{{single_action}}
-
-{{cta}}
-
-Evidence:
-- {{claim_1}} -> {{source_1}}
+Use `channel_linkedin.md` templates.
 ```

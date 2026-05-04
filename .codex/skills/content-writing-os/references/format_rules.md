@@ -10,8 +10,12 @@
 ## Length Targets
 
 1. Medium: 2000-10000 words
-2. Newsletter: 1000-2000 words
-3. LinkedIn: 150-300 words each
+2. Newsletter: 2200-3400 words (canonical series format)
+3. LinkedIn: 120-220 words each (hard max 280)
+
+## Channel-Specific Overrides
+
+For channel work, `channel_newsletter.md` and `channel_linkedin.md` take precedence over this file if there is any conflict.
 
 ## Medium Deep-Dive Structure
 
@@ -25,26 +29,18 @@
 
 ## Newsletter Structure
 
-1. Heading
-2. Subheading
-3. Catchy hook
-4. Searchable key phrases (exactly 5)
-5. This week's insight
-6. Core technical explanation
-7. Business takeaway
-8. Action checklist
-9. CTA
+Use the canonical section set in `channel_newsletter.md`.
 
 ## LinkedIn Structure
 
-1. Hook
-2. One technical insight
-3. Business value translation
-4. One practical action
-5. CTA
+Use the templates and constraints in `channel_linkedin.md`.
 
 ## Evidence Rules
 
 1. Every factual claim must map to source evidence.
 2. Include an `Evidence Map` section in each draft.
 3. If evidence is missing, rewrite claim as a hypothesis or remove it.
+
+## Punctuation Rules
+
+1. No em dashes (—) in any output.

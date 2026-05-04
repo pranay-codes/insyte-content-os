@@ -13,3 +13,7 @@
 3. Added direct-speech, concreteness, and action-oriented section-end requirements.
 4. Kept original business-technical clarity and evidence-first framing intact.
 
+## 2026-04-10 - v1.1.1
+
+1. Banned em dashes (—) across all outputs; replace with commas, parentheses, or separate sentences.
+
