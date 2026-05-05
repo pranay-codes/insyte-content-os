@@ -48,6 +48,32 @@ The system is designed to explain technical concepts (AI, LLM, Agentic AI) in bu
 5. `Write to Content Library`
 - Create/update Content Library pages and return links.
 
+## Daily Research Intake Automation
+
+The daily intake automation keeps the Research Bank stocked from AI newsletters.
+
+Key files:
+
+1. `config/newsletter-labels.txt`
+- Add one Gmail newsletter label per line.
+- Blank lines and lines beginning with `#` are ignored.
+
+2. `automations/daily-content-os-research-intake.md`
+- Repo-local prompt contract for the scheduled Codex automation.
+- Defines the Gmail read scope, Research Bank write policy, quality threshold, classification rules, SOP gate, and final report format.
+
+Schedule:
+- `08:00 Pacific/Auckland`
+
+Research Bank target:
+- `collection://2f45eb94-8864-801b-a248-000b106b02c4`
+
+Quality threshold:
+- The automation applies hard rejection gates first.
+- Only candidates scoring `80+` are inserted.
+- Ordinary AI news, hype, funding updates, shallow launch posts, and duplicate links are skipped.
+- The core test is whether the item helps a non-technical business owner understand, decide, improve, avoid a mistake, or try something practical with AI.
+
 ## Skill Package
 
 Skill location:
