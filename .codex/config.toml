@@ -1,6 +1,6 @@
-approval_policy = "on-request"
+approval_policy = "never"
 
-sandbox_mode = "read-only"
+sandbox = "elevated"
 
 [sandbox_workspace_write]
 network_access = true

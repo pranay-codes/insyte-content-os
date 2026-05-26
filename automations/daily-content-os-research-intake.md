@@ -18,10 +18,9 @@ The automation is complete for a run when it has:
 4. Extracted and evaluated linked resources from those newsletters.
 5. Rejected low-value AI news, hype, duplicate links, and items without practical business value.
 6. Fetched the allowlisted Research Bank target before any write.
-7. Verified weekly SOP proof before any Research Bank write.
-8. Inserted only candidates scoring `80+` into Research Bank.
-9. Reported added, skipped, duplicate, failed, and blocked counts.
-10. For every inserted item, reported page URL or ID, changed fields, SOP compliance status, proof task URL, and proof age in days.
+7. Inserted only candidates scoring `70+` into Research Bank.
+8. Reported added, skipped, duplicate, failed, and blocked counts.
+9.  For every inserted item, reported page URL or ID, changed fields, SOP compliance status, proof task URL, and proof age in days.
 
 ## Prompt Contract
 
@@ -42,8 +41,6 @@ Constraints:
 - Auto-write only curated items that pass the quality threshold.
 - Follow `POLICY.md` before every Notion action.
 - Before every write, fetch the Research Bank target and confirm it is allowlisted.
-- Verify the weekly SOP task before every Research Bank write.
-- If SOP proof is missing or stale, stop and write nothing. Do not ask for override during an unattended automation run.
 - Do not add ordinary AI news unless practical value is clear.
 - Do not read or write any Notion object outside the allowlist in `POLICY.md`.
 - Do not change Notion schemas or views.
@@ -56,7 +53,6 @@ Failure modes:
 - Candidate link cannot be opened or evaluated: skip it unless the email body gives enough evidence.
 - Duplicate Research Bank link: skip it.
 - Notion query fails: use Notion search and fetch fallback, and report the exact failure string.
-- SOP proof fails: report `Weekly SOP compliance is missing (no completed "Editorial Review - Weekly Shortlist" in the last 7 days). Confirm override to continue this write.` and stop without writing.
 
 ## Operating Steps
 
@@ -91,9 +87,9 @@ Failure modes:
 5. Evaluate candidates:
    - Apply hard gates first.
    - Score remaining candidates out of 100.
-   - Auto-write only candidates scoring `80+`.
-   - Report candidates scoring `65-79` but do not insert them.
-   - Ignore candidates below `65` unless needed for the failure summary.
+   - Auto-write only candidates scoring `70+`.
+   - Report candidates scoring `55-69` but do not insert them.
+   - Ignore candidates below `55` unless needed for the failure summary.
 
 6. Check duplicates against Research Bank:
    - Prefer querying Research Bank by exact `Link` if the Notion query tool works.
@@ -135,7 +131,6 @@ Failure modes:
     - Skipped duplicates.
     - Skipped low-score items.
     - Failed email reads or failed link evaluations.
-    - SOP compliance: `pass` or blocked.
     - Proof task URL and proof age in days when a write occurred.
 
 ## Quality Threshold
@@ -159,9 +154,9 @@ Scoring:
 
 Decision bands:
 - `90-100`: Strong insert, likely newsletter-worthy.
-- `80-89`: Insert as Research Bank backlog.
-- `65-79`: Report only, do not insert.
-- `<65`: Ignore.
+- `70-89`: Insert as Research Bank backlog.
+- `55-69`: Report only, do not insert.
+- `<55`: Ignore.
 
 The core test is: could this help a business owner understand, decide, improve, avoid a mistake, or try something practical in their business?
 

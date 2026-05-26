@@ -79,6 +79,11 @@ When a user asks for a LinkedIn post or newsletter in the future, read the relev
 python scripts/compose_drafts.py --research-json <path> --output-dir <dir>
 ```
 
+1. Weekly deterministic selection helper (used by weekly automation):
+```powershell
+python scripts/weekly_selector.py --input <candidates.json> --output <selection.json>
+```
+
 2. Evidence validation:
 ```powershell
 python scripts/validate_evidence.py --input <draft.md>

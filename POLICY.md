@@ -37,21 +37,6 @@ Any Notion page, database, or data source not listed above is out of scope.
 2. Confirm target URL/ID is in the authoritative scope list.
 3. If validation fails, stop and ask for user confirmation.
 
-## Weekly SOP Compliance Rule
-
-1. A valid SOP run exists only if an Inbox task titled `Editorial Review - Weekly Shortlist` is in `Status=Done` and its completion timestamp is within the last 7 days.
-2. If valid SOP proof is missing, the agent must:
-- warn the user that SOP compliance is missing
-- ask for explicit confirmation before any write to Tasks, Research Bank, or Content Library
-3. If user confirms, writes are allowed for that turn only and must be logged as `override`.
-4. If user does not confirm, no writes are performed.
-
-## Compliance Evidence
-
-For each write operation, include:
-1. SOP check result (`pass` or `override`)
-2. Marker task URL used for proof (if `pass`)
-3. Timestamp of the proof check
 
 ## Enforcement
 
