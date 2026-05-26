@@ -25,18 +25,14 @@ The default tone is technical but clear, with deep-dive explanations of AI, LLM,
 - `Title`
 - `Link`
 - `Why it matters`
-3. Validate weekly SOP gate before any write:
-- marker task `Editorial Review - Weekly Shortlist`
-- `Status=Done`
-- completed within the last 7 days
-4. Run link intelligence pass on `Link` and all `Evidence Links`:
+3. Run link intelligence pass on `Link` and all `Evidence Links`:
 - extract key concepts
 - explain concepts for business audience
 - evaluate business usefulness and implications
 - identify value opportunities and risk conditions
-5. Generate Medium -> Newsletter -> LinkedIn A/B in that order.
-6. Ensure each factual claim has evidence mapping to `Link` or `Evidence Links`.
-7. Write drafts into Content Library pages and return created or updated page URLs.
+4. Generate Medium -> Newsletter -> LinkedIn A/B in that order.
+5. Ensure each factual claim has evidence mapping to `Link` or `Evidence Links`.
+6. Write drafts into Content Library pages and return created or updated page URLs.
 
 ## 2) Enforce Tone and Format
 
@@ -124,14 +120,10 @@ python scripts/link_intelligence.py --research-json <path> --output <insights.js
 - fail validation
 - return claims needing sources
 
-3. SOP gate stale:
-- warn user
-- require explicit override confirmation before writes
-
-4. Style update sample size <6:
+3. Style update sample size <6:
 - skip proposal
 - log `insufficient signal`
 
-5. Link fetch or parsing failures:
+4. Link fetch or parsing failures:
 - continue with available sources
 - report failed URLs explicitly

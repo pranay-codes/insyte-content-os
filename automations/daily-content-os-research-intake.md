@@ -20,7 +20,7 @@ The automation is complete for a run when it has:
 6. Fetched the allowlisted Research Bank target before any write.
 7. Inserted only candidates scoring `70+` into Research Bank.
 8. Reported added, skipped, duplicate, failed, and blocked counts.
-9.  For every inserted item, reported page URL or ID, changed fields, SOP compliance status, proof task URL, and proof age in days.
+9. For every inserted item, reported page URL or ID and changed fields.
 
 ## Prompt Contract
 
@@ -34,7 +34,6 @@ Inputs:
 - Notion connector access
 - Research Bank database: `https://www.notion.so/2f45eb948864801180bafa69e23150f7`
 - Research Bank data source: `collection://2f45eb94-8864-801b-a248-000b106b02c4`
-- Inbox task data source for SOP proof: `collection://24cec550-1950-47d4-b00f-16e0809faa54`
 
 Constraints:
 - Read the latest 10 total matching emails across all configured labels, not 10 per label.
@@ -96,20 +95,12 @@ Failure modes:
    - If query fails, report the exact error and use Notion search within `collection://2f45eb94-8864-801b-a248-000b106b02c4` for the exact URL and normalized URL.
    - Skip a candidate if the same URL is already present.
 
-7. Verify SOP before writing:
-   - Search the Inbox task data source for `Editorial Review - Weekly Shortlist`.
-   - Fetch the newest matching page.
-   - Confirm parent data source is `collection://24cec550-1950-47d4-b00f-16e0809faa54`.
-   - Confirm `Status=Done`.
-   - Compute proof age in days from the page completion timestamp. If no dedicated completion timestamp exists, use `Last edited time` as the proof timestamp only when the fetched page has `Status=Done`.
-   - If proof age is greater than 7 days, stop and write nothing.
-
-8. Fetch Research Bank target before writing:
+7. Fetch Research Bank target before writing:
    - Fetch `collection://2f45eb94-8864-801b-a248-000b106b02c4`.
    - Confirm the target matches `POLICY.md`.
    - Confirm the properties used below exist.
 
-9. Create Research Bank pages:
+8. Create Research Bank pages:
    - Parent: `data_source_id=2f45eb94-8864-801b-a248-000b106b02c4`
    - Properties:
      - `Title`
@@ -123,7 +114,7 @@ Failure modes:
      - `date:Last Reviewed:start` set to the run date
      - `date:Last Reviewed:is_datetime=0`
 
-10. Final report:
+9. Final report:
     - Search scope and labels used.
     - Number of emails searched and read.
     - Number of candidates extracted.
@@ -131,7 +122,6 @@ Failure modes:
     - Skipped duplicates.
     - Skipped low-score items.
     - Failed email reads or failed link evaluations.
-    - Proof task URL and proof age in days when a write occurred.
 
 ## Quality Threshold
 

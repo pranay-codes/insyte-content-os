@@ -60,7 +60,7 @@ Key files:
 
 2. `automations/daily-content-os-research-intake.md`
 - Repo-local prompt contract for the scheduled Codex automation.
-- Defines the Gmail read scope, Research Bank write policy, quality threshold, classification rules, SOP gate, and final report format.
+- Defines the Gmail read scope, Research Bank write policy, quality threshold, classification rules, and final report format.
 
 Schedule:
 - `08:00 Pacific/Auckland`
@@ -176,11 +176,9 @@ Repository policy is enforced by:
 Key controls include:
 
 1. Notion scope restrictions to Content OS objects only.
-2. SOP compliance checks before writes.
-3. Explicit override behavior when SOP proof is stale.
 
 ## Prompt Example
 
 ```text
-Use $content-writing-os to take this Research Bank item: <RESEARCH_ITEM_URL>. Research all links in Link + Evidence Links, extract deep technical concepts, explain them for business owners, evaluate usefulness/implications/value, then generate and write 4 drafts to Content Library (Medium deep dive, Newsletter, LinkedIn A, LinkedIn B) with strict evidence mapping. Return the 4 Notion page links plus SOP compliance status.
+Use $content-writing-os to take this Research Bank item: <RESEARCH_ITEM_URL>. Research all links in Link + Evidence Links, extract deep technical concepts, explain them for business owners, evaluate usefulness/implications/value, then generate and write 4 drafts to Content Library (Medium deep dive, Newsletter, LinkedIn A, LinkedIn B) with strict evidence mapping. Return the 4 Notion page links.
 ```

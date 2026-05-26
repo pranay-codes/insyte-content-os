@@ -38,21 +38,6 @@ No other Notion pages, databases, or data sources may be read or modified.
 4. Do not perform schema changes (database properties/views) unless explicitly requested in the current turn.
 5. Do not run workspace-wide edits or move/trash operations outside the allowed scope.
 
-## Weekly SOP Enforcement
-
-Before any write to Tasks, Research Bank, or Content Library:
-
-1. Find the most recent Inbox task titled `Editorial Review - Weekly Shortlist`.
-2. Verify both conditions:
-- `Status=Done`
-- completion age is less than or equal to 7 days
-3. If both conditions pass, proceed with write (`SOP compliance: pass`).
-4. If either condition fails:
-- warn the user with: `Weekly SOP compliance is missing (no completed "Editorial Review - Weekly Shortlist" in the last 7 days). Confirm override to continue this write.`
-- ask for explicit user confirmation before continuing
-- if confirmed, proceed only for that turn and mark response as `SOP compliance: override`
-- if not confirmed, do not perform the write
-
 ## Task Handling Rules (Inbox)
 
 - Create tasks as pages in `collection://24cec550-1950-47d4-b00f-16e0809faa54`.
@@ -77,6 +62,3 @@ Before any write to Tasks, Research Bank, or Content Library:
 
 - Never claim a Notion write succeeded without tool success output.
 - Report touched object URL/ID and fields changed after each write.
-- Report `SOP compliance: pass|override` after each write.
-- Report `Proof task URL` after each write (or `N/A` if override).
-- Report `Proof age` in days after each write.

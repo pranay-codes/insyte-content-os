@@ -21,7 +21,7 @@ Research Bank item:
 2. Medium draft explains architecture and pricing mechanics in business terms.
 3. Newsletter summarizes decision implications and action checklist.
 4. LinkedIn A/B provide concise, value-driven angles.
-5. Return 4 Notion page URLs and SOP compliance metadata.
+5. Return 4 Notion page URLs.
 
 ## Example Evidence Mapping
 

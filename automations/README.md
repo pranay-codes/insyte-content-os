@@ -21,8 +21,6 @@ Purpose:
 Safety:
 - The automation must read `AGENTS.md` and `POLICY.md` every run.
 - Research Bank writes are allowed only inside `collection://2f45eb94-8864-801b-a248-000b106b02c4`.
-- The weekly SOP proof task must be `Done` within the last 7 days.
-- Unattended runs stop instead of asking for SOP override.
 
 ## Weekly Content OS Draft Production
 
@@ -41,5 +39,3 @@ Purpose:
 Safety:
 - The automation must read `AGENTS.md` and `POLICY.md` every run.
 - All Notion reads/writes must remain inside the allowlisted Content OS objects.
-- The weekly SOP proof task must be `Done` within the last 7 days.
-- Unattended runs stop instead of asking for SOP override.
