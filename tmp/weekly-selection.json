@@ -1,0 +1,59 @@
+{
+  "error": "insufficient eligible items to form 3 LinkedIn posts",
+  "newsletter": {
+    "mode": "single",
+    "research_urls": [
+      "https://app.notion.com/p/3405eb94886481ebb310ddf7a4ef33b9"
+    ],
+    "lead_research_url": "https://app.notion.com/p/3405eb94886481ebb310ddf7a4ef33b9"
+  },
+  "linkedin": [
+    {
+      "research_url": "https://app.notion.com/p/3405eb94886481ebb310ddf7a4ef33b9",
+      "parent_newsletter": true
+    },
+    {
+      "research_url": "https://app.notion.com/p/36c5eb94886481b5ab5cdaa4aa6fa6d7",
+      "parent_newsletter": false
+    }
+  ],
+  "research_updates": [],
+  "skips": [
+    {
+      "research_url": "https://app.notion.com/p/36c5eb94886481e7a564f1ddf92e996b",
+      "reason": "used within last 60 days"
+    },
+    {
+      "research_url": "https://app.notion.com/p/36d5eb94886481a59432c7e701858322",
+      "reason": "used within last 60 days"
+    },
+    {
+      "research_url": "https://app.notion.com/p/36c5eb94886481b0a265d95e534dec0f",
+      "reason": "used within last 60 days"
+    },
+    {
+      "research_url": "https://app.notion.com/p/3585eb9488648120b2bdfe1901cb51e4",
+      "reason": "used within last 60 days"
+    },
+    {
+      "research_url": "https://app.notion.com/p/3575eb9488648118a1fdfdfe22631cf4",
+      "reason": "used within last 60 days"
+    },
+    {
+      "research_url": "https://app.notion.com/p/3575eb94886481d78757f2f256a73847",
+      "reason": "used within last 60 days"
+    },
+    {
+      "research_url": "https://app.notion.com/p/35d5eb948864808cba40f4ff5a3fefc0",
+      "reason": "missing required fields (Title/Link/Why it matters)"
+    },
+    {
+      "research_url": "https://app.notion.com/p/36e5eb94886480079798ea90ecc6aba4",
+      "reason": "missing required fields (Title/Link/Why it matters)"
+    },
+    {
+      "research_url": "https://app.notion.com/p/3345eb9488648078b02adf1a3f63414e",
+      "reason": "missing required fields (Title/Link/Why it matters)"
+    }
+  ]
+}

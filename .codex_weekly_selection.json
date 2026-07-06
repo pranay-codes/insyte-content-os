@@ -1,0 +1,45 @@
+{
+  "newsletter": {
+    "mode": "bundle",
+    "research_urls": [
+      "https://www.notion.so/3575eb94886481d78757f2f256a73847",
+      "https://www.notion.so/3575eb9488648118a1fdfdfe22631cf4",
+      "https://www.notion.so/3585eb9488648120b2bdfe1901cb51e4"
+    ],
+    "lead_research_url": "https://www.notion.so/3575eb94886481d78757f2f256a73847"
+  },
+  "linkedin": [
+    {
+      "research_url": "https://www.notion.so/3575eb94886481d78757f2f256a73847",
+      "parent_newsletter": true
+    },
+    {
+      "research_url": "https://www.notion.so/3575eb9488648118a1fdfdfe22631cf4",
+      "parent_newsletter": true
+    },
+    {
+      "research_url": "https://www.notion.so/3585eb9488648120b2bdfe1901cb51e4",
+      "parent_newsletter": true
+    }
+  ],
+  "research_updates": [
+    {
+      "research_url": "https://www.notion.so/3575eb9488648118a1fdfdfe22631cf4",
+      "set_status": "Used"
+    },
+    {
+      "research_url": "https://www.notion.so/3575eb94886481d78757f2f256a73847",
+      "set_status": "Used"
+    },
+    {
+      "research_url": "https://www.notion.so/3585eb9488648120b2bdfe1901cb51e4",
+      "set_status": "Used"
+    }
+  ],
+  "skips": [
+    {
+      "research_url": "https://www.notion.so/3405eb94886481ebb310ddf7a4ef33b9",
+      "reason": "used within last 60 days"
+    }
+  ]
+}

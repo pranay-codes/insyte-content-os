@@ -1,0 +1,99 @@
+{
+  "newsletter": {
+    "mode": "single",
+    "research_urls": [
+      "https://www.notion.so/36d5eb94886481a59432c7e701858322"
+    ],
+    "lead_research_url": "https://www.notion.so/36d5eb94886481a59432c7e701858322"
+  },
+  "linkedin": [
+    {
+      "research_url": "https://www.notion.so/36d5eb94886481a59432c7e701858322",
+      "parent_newsletter": true
+    },
+    {
+      "research_url": "https://www.notion.so/36c5eb94886481b0a265d95e534dec0f",
+      "parent_newsletter": false
+    },
+    {
+      "research_url": "https://www.notion.so/36c5eb94886481e7a564f1ddf92e996b",
+      "parent_newsletter": false
+    }
+  ],
+  "research_updates": [
+    {
+      "research_url": "https://www.notion.so/36c5eb94886481b0a265d95e534dec0f",
+      "set_status": "Used"
+    },
+    {
+      "research_url": "https://www.notion.so/36c5eb94886481e7a564f1ddf92e996b",
+      "set_status": "Used"
+    },
+    {
+      "research_url": "https://www.notion.so/36d5eb94886481a59432c7e701858322",
+      "set_status": "Used"
+    }
+  ],
+  "skips": [
+    {
+      "research_url": "https://www.notion.so/3585eb9488648120b2bdfe1901cb51e4",
+      "reason": "used within last 60 days"
+    },
+    {
+      "research_url": "https://www.notion.so/35d5eb948864808cba40f4ff5a3fefc0",
+      "reason": "missing required fields (Title/Link/Why it matters)"
+    },
+    {
+      "research_url": "https://www.notion.so/36e5eb94886480079798ea90ecc6aba4",
+      "reason": "missing required fields (Title/Link/Why it matters)"
+    },
+    {
+      "research_url": "https://www.notion.so/3115eb94886480359035e825d6eae16f",
+      "reason": "missing required fields (Title/Link/Why it matters)"
+    },
+    {
+      "research_url": "https://www.notion.so/3595eb948864800b8bf7ca2b4fc2ff27",
+      "reason": "missing required fields (Title/Link/Why it matters)"
+    },
+    {
+      "research_url": "https://www.notion.so/3405eb94886481ebb310ddf7a4ef33b9",
+      "reason": "used within last 60 days"
+    },
+    {
+      "research_url": "https://www.notion.so/3345eb9488648078b02adf1a3f63414e",
+      "reason": "missing required fields (Title/Link/Why it matters)"
+    },
+    {
+      "research_url": "https://www.notion.so/3265eb94886480a4934be9812b4f12fb",
+      "reason": "missing required fields (Title/Link/Why it matters)"
+    },
+    {
+      "research_url": "https://www.notion.so/3115eb94886480de873ac84a0f31ec30",
+      "reason": "missing required fields (Title/Link/Why it matters)"
+    },
+    {
+      "research_url": "https://www.notion.so/3105eb94886480a38486e163e26482e8",
+      "reason": "missing required fields (Title/Link/Why it matters)"
+    },
+    {
+      "research_url": "https://www.notion.so/3295eb948864808daee3c9b0bbe66024",
+      "reason": "missing required fields (Title/Link/Why it matters)"
+    },
+    {
+      "research_url": "https://www.notion.so/3575eb9488648118a1fdfdfe22631cf4",
+      "reason": "used within last 60 days"
+    },
+    {
+      "research_url": "https://www.notion.so/3575eb94886481d78757f2f256a73847",
+      "reason": "used within last 60 days"
+    },
+    {
+      "research_url": "https://www.notion.so/3445eb94886480498052e5bdf279a698",
+      "reason": "missing required fields (Title/Link/Why it matters)"
+    },
+    {
+      "research_url": "https://www.notion.so/3105eb9488648000a3e6e6eed490f5da",
+      "reason": "missing required fields (Title/Link/Why it matters)"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+﻿[
+    {
+        "url":  "https://www.notion.so/3575eb94886481d78757f2f256a73847",
+        "Link":  "https://chatgpt.com/codex/for-work/",
+        "Why it matters":  "If Codex can reliably operate on the same documents and tools teams already use (docs, spreadsheets, slides, connected workplace apps), it moves from chat to workflow, which is the big adoption unlock for non-technical teams.",
+        "Score":  85,
+        "Editorial Decision":  null,
+        "selected_week_days_ago":  null,
+        "theme":  "AI in workflows",
+        "Status":  "Backlog",
+        "Title":  "Codex for work: working directly on docs/spreadsheets/slides + app connections",
+        "used_within_60_days":  false
+    },
+    {
+        "url":  "https://www.notion.so/3575eb9488648118a1fdfdfe22631cf4",
+        "Link":  "https://openai.com/index/advanced-account-security/",
+        "Why it matters":  "A practical security upgrade for teams using ChatGPT at work: it raises the bar against account takeovers by tying access to a physical hardware key, which is a straightforward, business-friendly control for high-risk accounts.",
+        "Score":  85,
+        "Editorial Decision":  null,
+        "selected_week_days_ago":  null,
+        "theme":  "AI in workflows",
+        "Status":  "Backlog",
+        "Title":  "OpenAI Advanced Account Security (hardware-key tier)",
+        "used_within_60_days":  false
+    },
+    {
+        "url":  "https://www.notion.so/3585eb9488648120b2bdfe1901cb51e4",
+        "Link":  "https://link.mail.beehiiv.com/ss/c/u001.c3bwGki9gHo3r1zoMYsk5IL3F5UoqAdL1pyLJlglmV-LZVBfpR6KZVtUn1P-r27wzSWm3SvTa9joMrJn67th4e7VjWDuUg_4PtC8im3zFUFWVhBqiPAeeQBtofDV0bChfs3iOijQESUjGKqtbCN6MqmBgCZeq64fa_Wla9IFHeKK-G7pt3--gF_ZB9oDZEZ0hMcDZoqUONF_xMsFrqwIIWUmsrVO6fQrXpapYpDHP4mjU7VKyWyl49WM3A_wVx4y3AzxA2bwj0flig9hnGD98JNwdpCQBIkhlYkZEG_hNj0-8W7cebmt5N44i1c0MPeH/4qc/I5MY3ZkuTZm_U-fzFQvW3w/h5/h001.BNLlP6_upxS9TXFrVscKg8y7GcYUS_0GZYvXZ_vH1m4",
+        "Why it matters":  "If you run Facebook/Instagram ads, this makes it possible to let an AI assistant work inside your ad account (drafting, iterating, and optimizing campaigns) instead of copying data back and forth, which can speed up testing and reduce creative bottlenecks.",
+        "Score":  null,
+        "Editorial Decision":  null,
+        "selected_week_days_ago":  null,
+        "theme":  "AI in workflows",
+        "Status":  "Backlog",
+        "Title":  "Meta Ads AI Connectors (plug ChatGPT/Claude into Meta ad accounts)",
+        "used_within_60_days":  false
+    },
+    {
+        "url":  "https://www.notion.so/3405eb94886481ebb310ddf7a4ef33b9",
+        "Link":  "https://reports.weforum.org/docs/WEF_Organizational_Transformation_in_the_Age_of_AI_How_Organizations_Maximize_AI%27s_Potential_2026.pdf",
+        "Why it matters":  "AI value does not come from isolated pilots. It comes from redesigning workflows, decision ownership, and trust so AI becomes part of execution in day-to-day operations.",
+        "Score":  null,
+        "Editorial Decision":  null,
+        "selected_week_days_ago":  43,
+        "theme":  "AI in workflows",
+        "Status":  "Used",
+        "Title":  "Organizational Transformation in the Age of AI (WEF, Mar 2026)",
+        "used_within_60_days":  true
+    }
+]
